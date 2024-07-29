@@ -12,7 +12,7 @@ provider "docker" {
 }
 
 resource "docker_image" "nginx" {
-  name         = "nginx"
+  name         = "nginx git"
   keep_locally = false
 }
 
